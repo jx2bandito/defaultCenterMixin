@@ -1,0 +1,7 @@
+@mixin defaultCenter($width: 0px, $height: $width) {
+  position: absolute;
+  width: $width;
+  height: $height;
+  top: calc(50% - #{$height} / 2);
+  left: calc(50% - #{$width} / 2);
+}
